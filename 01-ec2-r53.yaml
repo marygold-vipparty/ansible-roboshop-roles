@@ -8,8 +8,8 @@
     domain_name: "nanipinky.shop"
     # we can pass instances through command line using -e
     instances: 
-    - catalogue
-    - user
+      - catalogue
+      - user
     
   tasks:
   - name: create ec2 instance
